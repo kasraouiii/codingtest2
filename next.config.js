@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    plugins: ['tailwindcss', 'postcss-preset-env']
+}
 
 module.exports = nextConfig
